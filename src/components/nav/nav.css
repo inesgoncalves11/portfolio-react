@@ -1,0 +1,26 @@
+.navbar__container {
+    display: flex;
+    width:96%;
+    justify-content:flex-end;
+    
+    align-items: center;
+}
+.navbar {
+    list-style: none;
+
+}
+.navbar__item {
+    display: inline-block;
+    padding:10px;
+    margin:5px;
+}
+.navbar__item a {
+    padding:10px;
+    text-decoration: none;
+    color:#CAD2C5;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1em;
+}
+.navbar__item a:hover {
+    color:#52796F;
+}
